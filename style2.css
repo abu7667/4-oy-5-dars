@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-image: url(./images/Rectangle\ 18.png);
+    height: 100vh;
+    background-size: cover;
+}
+
+.header {
+    background: white;
+    width: 1180px;
+    height: 392px;
+    margin: 0 auto;
+    position: relative;
+    top: 250px;
+    box-shadow: 0px 0px 40px 0px #B8005F33;
+
+}
+
+.btn {
+    padding: 15px 36px;
+     background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+     color: white;
+     border-radius: 7px;
+     border: 1px solid transparent;
+     margin-top: 100px;
+     position: relative;
+     left: -450px;
+}
+
+input:nth-child(1) {
+width: 362px;
+height: 50px;
+}
+
+
+.inp {
+    width: 362px;
+    height: 50px;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 42px;
+}
+
+.inputs {
+    position: relative;
+    top: 100px;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.big {
+    width: 749px;
+    height: 81px;
+    margin-left:160px;
+}
+
